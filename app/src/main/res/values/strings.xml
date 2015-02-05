@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">New Panel Wizard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_camera">Camera</string>
+    <string name="title_activity_adjust_clicked_image">AdjustClickedImage</string>
+    <string name="title_activity_select_door">SelectDoor</string>
+    <string name="title_activity_comparision_window">ComparisionWindow</string>
+    <string name="title_activity_regstration_form">RegstrationForm</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_finger_paint">FingerPaintActivity</string>
+
+</resources>
