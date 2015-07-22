@@ -824,6 +824,7 @@ public class ConfigureDoor extends Activity {
                         Path path = new Path();
                         path.addRect(0, 0, canvas.getWidth(), canvas.getHeight(), Path.Direction.CW);
 
+
                         Canvas clippingArea = null;
 
                         //***** Store Before Image *****//

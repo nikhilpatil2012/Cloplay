@@ -1,3 +1,4 @@
+/*
 package tronbox.cloplay;
 
 import android.app.Activity;
@@ -54,6 +55,7 @@ public class ClientMailCheckActivity extends Activity {
 
         _multipart = new MimeMultipart();
 
+*/
 /*
             MailcapCommandMap mc = (MailcapCommandMap) CommandMap.getDefaultCommandMap();
             mc.addMailcap("text/html;; x-java-content-handler=com.sun.mail.handlers.text_html");
@@ -61,10 +63,15 @@ public class ClientMailCheckActivity extends Activity {
             mc.addMailcap("text/plain;; x-java-content-handler=com.sun.mail.handlers.text_plain");
             mc.addMailcap("multipart*//*
 */
+/*
+*//*
+
+*/
 /*;; x-java-content-handler=com.sun.mail.handlers.multipart_mixed");
             mc.addMailcap("message/rfc822;; x-java-content-handler=com.sun.mail.handlers.message_rfc822");
             CommandMap.setDefaultCommandMap(mc);
-*/
+*//*
+
 
         emailEdit = (EditText) findViewById(R.id.email);
         subjectEdit = (EditText) findViewById(R.id.subject);
@@ -81,13 +88,15 @@ public class ClientMailCheckActivity extends Activity {
 
                 sendMail("system@a1garage.com", "dddd", "hello");
 
-                /*
+                */
+/*
                 String email = emailEdit.getText().toString();
                 String subject = subjectEdit.getText().toString();
                 String message = messageEdit.getText().toString();
 
                 sendMail(email,subject,message);
-*/
+*//*
+
 
             }
         });
@@ -223,8 +232,10 @@ public class ClientMailCheckActivity extends Activity {
             e.printStackTrace();
         }
 
-            /*Master.beforeImageUri = Uri.fromFile(beforeFile);
-            Master.afterImageUri = Uri.fromFile(afterFile);*/
+            */
+/*Master.beforeImageUri = Uri.fromFile(beforeFile);
+            Master.afterImageUri = Uri.fromFile(afterFile);*//*
+
 
 
         Log.w("StoredAfterFilePath", beforeFile.getPath());
@@ -244,3 +255,4 @@ public class ClientMailCheckActivity extends Activity {
     }
 
 }
+*/

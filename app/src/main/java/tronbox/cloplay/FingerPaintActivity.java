@@ -1,3 +1,4 @@
+/*
 package tronbox.cloplay;
 
 import android.app.Activity;
@@ -72,3 +73,4 @@ public class FingerPaintActivity extends Activity
     }
 }
 
+*/
